@@ -11,10 +11,16 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "bootstrap": "node ./scripts/bootstrap-fauna-database.js"
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.1",
+    "dotenv": "^8.2.0",
+    "faunadb": "^4.0.0",
     "gatsby": "^2.26.1",
+    "gatsby-plugin-material-ui": "^2.1.10",
+    "netlify-cli": "^2.69.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
