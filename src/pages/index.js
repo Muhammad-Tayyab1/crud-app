@@ -30,7 +30,7 @@ const useStyle = makeStyles((theme) => ({
     width: "100%",
     maxWidth: "600px",
     padding: "30px",
-    borderRadius: "8px",
+    borderRadius: "10px",
   },
   mainHeader: {
     color: "black",
@@ -43,7 +43,7 @@ const useStyle = makeStyles((theme) => ({
   conetentContainer: {
     background: "#bfefff",
     margin: "3px 0",
-    borderRadius: "4px",
+    borderRadius: "6px",
   },
   content: {
     color: "black",
